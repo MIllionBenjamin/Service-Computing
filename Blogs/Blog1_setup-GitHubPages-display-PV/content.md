@@ -2,7 +2,7 @@
     <link rel="shortcut icon" href="../../icon.png">
 </head>
 
-# 在GitHub上建立个人博客并且在博客中显示网页访问量
+# 在GitHub上建立个人博客并在博客中显示网页访问量
 > 关键词：Github、博客、网页访问量
 <br>
 
