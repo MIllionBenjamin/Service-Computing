@@ -1,3 +1,6 @@
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/MIllionBenjamin/Service-Computing/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
