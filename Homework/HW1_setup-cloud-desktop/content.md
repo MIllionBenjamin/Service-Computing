@@ -71,3 +71,21 @@ ping主机成功
 ![](clone_ssh_in_centos.png)
 - NAT
 ![](clone_ssh_in_centos_NAT.png)
+
+### 3. 远程桌面
+起初在CentOS（GUI）的设置中发现了 `Sharing` 相关设置，其中有 `Screen Sharing` 选项，默认是OFF，本想直接将其设为ON却发现无法更改。
+
+在CentOS命令行中配置好 `VNC Server` 后，才能将`Screen Sharing` 选项调成ON。
+
+关于CentOS配置 `VNC Server` ，可参考[此博客](https://qizhanming.com/blog/2018/03/06/how-to-config-vnc-server-on-centos-7)
+
+![](settings_Screen_Sharing.png)
+__注意__：此处可见 `Screen Sharing` 启用的是 `ens33` 网卡，后续在客户端地址栏要输入对应该网卡的IP地址才能成功连接。
+
+而后在MacOS中下载 `VNC Viewer`，即VNC客户端。[下载网址](https://www.realvnc.com/en/connect/download/viewer/macos/)
+
+打开VNC Viewer，在地址栏中输入要访问的远程桌面的IP地址。__注意__：IP地址后要附加":1"，表示第一个桌面。
+![](VNC_Viewer.png)
+
+按照提示输入密码后即成功连接到远程桌面。
+![](Remote_desktop.png)
