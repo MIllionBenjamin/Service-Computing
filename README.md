@@ -1,40 +1,14 @@
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 
-## Welcome to GitHub Pages
+## Welcome to Million Benjamin's GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/MIllionBenjamin/Service-Computing/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Blog
+- [How to set up Github Pages and show the page views -- 如何在GitHub上建立个人博客并在博客中显示网页访问量](https://millionbenjamin.github.io/Service-Computing/Blogs/Blog1_setup-GitHubPages-display-PV/content)
+  
+### Homework
+- [Set up Cloud Desktop -- 建立云桌面](https://millionbenjamin.github.io/Service-Computing/Homework/HW1_setup-cloud-desktop/content)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<br>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MIllionBenjamin/Service-Computing/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### [Support Me](https://millionbenjamin.github.io/Service-Computing/SupportMe)
