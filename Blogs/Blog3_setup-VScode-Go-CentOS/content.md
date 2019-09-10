@@ -11,7 +11,6 @@
   - [二、安装并配置golang](#%e4%ba%8c%e5%ae%89%e8%a3%85%e5%b9%b6%e9%85%8d%e7%bd%aegolang)
   - [三、VScode中的golang相关工具](#%e4%b8%89vscode%e4%b8%ad%e7%9a%84golang%e7%9b%b8%e5%85%b3%e5%b7%a5%e5%85%b7)
   - [附 在CentOS下运行 `.AppImage` 文件](#%e9%99%84-%e5%9c%a8centos%e4%b8%8b%e8%bf%90%e8%a1%8c-appimage-%e6%96%87%e4%bb%b6)
-      - [Support Me](#support-me)
 
 
 ## 一、安装VScode
@@ -69,4 +68,4 @@ sudo ./*.AppImage
 
 <br>
 
-#### [Support Me](https://millionbenjamin.github.io/Service-Computing/SupportMe)
+__[Support Me](https://millionbenjamin.github.io/Service-Computing/SupportMe)__
