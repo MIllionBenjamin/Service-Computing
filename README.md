@@ -9,9 +9,17 @@
 - [How to set up Golang environment on MacOS -- 如何在MacOS上配置Golang开发环境](https://millionbenjamin.github.io/Service-Computing/Blogs/Blog2_setup-Go-MacOS/content)
 
 - [How to install VScode and set up Golang environment on CentOS 7 -- 如何在CentOS 7上安装VScode并配置Golang开发环境](https://millionbenjamin.github.io/Service-Computing/Blogs/Blog3_setup-VScode-Go-CentOS/content)
+
+- [Translation of _Cobra Generator_ -- 翻译文档Cobra Generator](https://millionbenjamin.github.io/Service-Computing/Blogs/Blog4_Cobra_Generator_translation/content)
   
 ### Homework
 - [Set up Cloud Desktop -- 建立云桌面](https://millionbenjamin.github.io/Service-Computing/Homework/HW1_setup-cloud-desktop/content)
+
+- [Quick Sort and First Go Package -- 快速排序和第一个Go程序包](https://millionbenjamin.github.io/Service-Computing/Homework/HW2_quickSort_first-go-package/content)
+
+- [Go CLI App -- Go的命令行应用](https://millionbenjamin.github.io/Service-Computing/Homework/HW3_go_CLI_app/content)
+
+- [Go CLI Practice _Agenda_ -- Go命令行应用实战：Agenda](https://millionbenjamin.github.io/Service-Computing/HW4_CLI_practice_Agenda/content)
 
 <br>
 
