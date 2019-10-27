@@ -177,6 +177,7 @@ ls /Users/apple/go/src/Agenda/UserInformation
 ![](Images/UserInformation.png)
 
 此时 `Milliion.json` 中的内容：
+
 ![](Images/MillionJSON.png)
 
 用不存在的用户进行登录：
@@ -192,6 +193,7 @@ Agenda login --loginUser Million --loginPassword 123456
 ![](Images/MillionLogin.png)
 
 此时 `curUser.txt` 中的内容：
+
 ![](Images/curUser.png)
 
 日志内容：
