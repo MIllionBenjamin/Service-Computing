@@ -15,11 +15,11 @@
 ### Homework
 - [Set up Cloud Desktop -- 建立云桌面](https://millionbenjamin.github.io/Service-Computing/Homework/HW1_setup-cloud-desktop/content)
 
-- [Quick Sort and First Go Package -- 快速排序和第一个Go程序包](https://millionbenjamin.github.io/Service-Computing/Homework/HW2_quickSort_first-go-package/content)
+- [Quick Sort and First Go Package -- 快速排序和第一个Go程序包](https://github.com/MIllionBenjamin/Service-Computing/tree/master/Homework/HW2_quickSort_first-go-package)
 
-- [Go CLI App -- Go的命令行应用](https://millionbenjamin.github.io/Service-Computing/Homework/HW3_go_CLI_app/content)
+- [Go CLI App -- Go的命令行应用](https://github.com/MIllionBenjamin/Service-Computing/tree/master/Homework/HW3_go_CLI_app)
 
-- [Go CLI Practice _Agenda_ -- Go命令行应用实战：Agenda](https://millionbenjamin.github.io/Service-Computing/HW4_CLI_practice_Agenda/content)
+- [Go CLI Practice _Agenda_ -- Go命令行应用实战：Agenda](https://github.com/MIllionBenjamin/Service-Computing/tree/master/Homework/HW4_CLI_practice_Agenda)
 
 <br>
 
