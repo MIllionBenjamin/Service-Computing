@@ -21,6 +21,8 @@
 
 - [Go CLI Practice _Agenda_ -- Go命令行应用实战：Agenda](https://github.com/MIllionBenjamin/Service-Computing/tree/master/Homework/HW4_CLI_practice_Agenda)
 
+- [Simple Go Web Application -- Go语言简单Web应用开发](https://github.com/MIllionBenjamin/Service-Computing/tree/master/Homework/HW5_web_develop_exercise)
+
 <br>
 
 #### [Support Me](https://millionbenjamin.github.io/Service-Computing/SupportMe)
