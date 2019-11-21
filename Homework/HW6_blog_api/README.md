@@ -129,4 +129,4 @@ http://localhost:8080/v1/user/10000000
 ```url
 http://localhost:8080/swagger/
 ```
-进入Sqagger，这是一个API生成文档和测试工具。
+进入Swagger，这是一个API生成文档和测试工具。

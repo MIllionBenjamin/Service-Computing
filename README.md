@@ -23,6 +23,8 @@
 
 - [Simple Go Web Application -- Go语言简单Web应用开发](https://github.com/MIllionBenjamin/Service-Computing/tree/master/Homework/HW5_web_develop_exercise)
 
+- [Simple Go Blog API -- Go语言简单博客API开发](https://github.com/MIllionBenjamin/Service-Computing/tree/master/Homework/HW6_blog_api)
+
 <br>
 
 #### [Support Me](https://millionbenjamin.github.io/Service-Computing/SupportMe)
