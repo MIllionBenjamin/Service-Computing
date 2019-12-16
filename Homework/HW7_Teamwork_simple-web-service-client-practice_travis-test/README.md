@@ -28,7 +28,7 @@ language: go
 script: go test -v ./main.go
 ```
 
-关于Travis CI在Go语言项目上的部署（Go项目中 `.travis.yml` 文件的语法），可以参考我的博客[Travis CI - Building a Go Project（Travis CI-建立Go项目）官方文档翻译](https://millionbenjamin.github.io/Service-ComputingBlogs/Blog5_Travis_CI-Building-a-Go-Project_translation/content.md)
+关于Travis CI在Go语言项目上的部署（Go项目中 `.travis.yml` 文件的语法），可以参考我的博客[Travis CI - Building a Go Project（Travis CI-建立Go项目）官方文档翻译](https://millionbenjamin.github.io/Service-Computing/Blogs/Blog5_Travis_CI-Building-a-Go-Project_translation/content)
 
 ### 2.在Travis CI中构建
 访问可以在开源项目上免费使用的[Travis CI网站](https://travis-ci.org/)，点击Sign up用github账户进行登陆。

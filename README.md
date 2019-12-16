@@ -13,7 +13,7 @@
 - [Translation of _Cobra Generator_ -- 翻译文档Cobra Generator](https://millionbenjamin.github.io/Service-Computing/Blogs/Blog4_Cobra_Generator_translation/content)
 
 
-- [Translation of _Travis CI - Building a Go Project_ -- 翻译文档Travis CI-建立Go项目](https://millionbenjamin.github.io/Service-ComputingBlogs/Blog5_Travis_CI-Building-a-Go-Project_translation/content.md)
+- [Translation of _Travis CI - Building a Go Project_ -- 翻译文档Travis CI-建立Go项目](https://millionbenjamin.github.io/Service-Computing/Blogs/Blog5_Travis_CI-Building-a-Go-Project_translation/content)
 
   
 ### Homework
@@ -28,6 +28,8 @@
 - [Simple Go Web Application -- Go语言简单Web应用开发](https://github.com/MIllionBenjamin/Service-Computing/tree/master/Homework/HW5_web_develop_exercise)
 
 - [Simple Go Blog API -- Go语言简单博客API开发](https://github.com/MIllionBenjamin/Service-Computing/tree/master/Homework/HW6_blog_api)
+
+- [Simple Web Service and Client Practice (Travis CI Integration) -- 简单 web 服务与客户端开发实战（用Travis CI测试相关模块](https://github.com/MIllionBenjamin/Service-Computing/tree/master/Homework/HW7_Teamwork_simple-web-service-client-practice_travis-test)
 
 <br>
 
