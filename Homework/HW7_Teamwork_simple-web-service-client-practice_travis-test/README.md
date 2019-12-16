@@ -22,10 +22,15 @@ CI即Continuous integration，持续集成。是一种软件工程流程，是�
 ### 1. 在项目目录创建 `.travis.yml` 文件
 `.travis.yml` 文件定义了Travis CI在这个项目上的行为，即告知Travis CI应该进行哪些操作。
 
-对于本项目，需要指定代码语言为go语言，测试 `main.go` 中的代码（`main.go` 中调用了项目中所有其他go代码）。于是在 `.travis.yml` 文件中写入以下内容：
+对于本项目，需要指定代码语言为go语言，测试项目所有模块。于是在 `.travis.yml` 文件中写入以下内容：
 ``` yaml
 language: go
-script: go test -v ./main.go
+script: 
+go test -v ./main.go
+go test -v ./controller/controller.go
+go test -v ./router/router.go
+go test -v ./model/init.go
+go test -v ./model/model.go
 ```
 
 关于Travis CI在Go语言项目上的部署（Go项目中 `.travis.yml` 文件的语法），可以参考我的博客[Travis CI - Building a Go Project（Travis CI-建立Go项目）官方文档翻译](https://millionbenjamin.github.io/Service-Computing/Blogs/Blog5_Travis_CI-Building-a-Go-Project_translation/content)
