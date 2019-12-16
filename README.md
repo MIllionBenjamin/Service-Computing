@@ -11,6 +11,10 @@
 - [How to install VScode and set up Golang environment on CentOS 7 -- 如何在CentOS 7上安装VScode并配置Golang开发环境](https://millionbenjamin.github.io/Service-Computing/Blogs/Blog3_setup-VScode-Go-CentOS/content)
 
 - [Translation of _Cobra Generator_ -- 翻译文档Cobra Generator](https://millionbenjamin.github.io/Service-Computing/Blogs/Blog4_Cobra_Generator_translation/content)
+
+
+- [Translation of _Travis CI - Building a Go Project_ -- 翻译文档Travis CI-建立Go项目](https://millionbenjamin.github.io/Service-ComputingBlogs/Blog5_Travis_CI-Building-a-Go-Project_translation/content.md)
+
   
 ### Homework
 - [Set up Cloud Desktop -- 建立云桌面](https://millionbenjamin.github.io/Service-Computing/Homework/HW1_setup-cloud-desktop/content)
