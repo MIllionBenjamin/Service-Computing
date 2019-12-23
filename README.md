@@ -31,6 +31,8 @@
 
 - [Simple Web Service and Client Practice (Travis CI Integration) -- 简单 web 服务与客户端开发实战（用Travis CI测试相关模块](https://github.com/MIllionBenjamin/Service-Computing/tree/master/Homework/HW7_Teamwork_simple-web-service-client-practice_travis-test)
 
+- [Use Docker -- 根据课件内容使用Docker](https://github.com/MIllionBenjamin/Service-Computing/tree/master/Homework/HW8_use-docker)
+
 <br>
 
 #### [Support Me](https://millionbenjamin.github.io/Service-Computing/SupportMe)

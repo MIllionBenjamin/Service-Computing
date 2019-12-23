@@ -37,7 +37,7 @@
 ![](./images/update_docker.png)
 
 升级后在命令行输入 `docker version` 查看版本：
-``` shell
+``` 
 (base) Millions-MacBook-Pro:~ apple$ docker version
 Client: Docker Engine - Community
  Version:           19.03.5
@@ -72,7 +72,7 @@ Server: Docker Engine - Community
 
 ## 二、运行第一个容器
 在命令行中输入 `docker run hello-world`：
-``` shell
+``` 
 Millions-MacBook-Pro:~ apple$ docker run hello-world
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
@@ -106,7 +106,7 @@ For more examples and ideas, visit:
 
 ## 三、Docker基本操作
 ### 1. 运行镜像
-``` shell
+``` 
 Millions-MacBook-Pro:~ apple$ docker run -it ubuntu bash
 Unable to find image 'ubuntu:latest' locally
 latest: Pulling from library/ubuntu
@@ -120,7 +120,7 @@ root@c1c2f2b76827:/#
 ```
 
 ### 2. 显示本地镜像库内容
-``` shell
+``` 
 Millions-MacBook-Pro:~ apple$ docker images
 REPOSITORY                        TAG                 IMAGE ID            CREATED             SIZE
 ubuntu                            latest              549b9b86cb8d        4 days ago          64.2MB
@@ -136,7 +136,7 @@ hyperledger/fabric-couchdb        0.4.10              3092eca241fc        18 mon
 
 ### 3. 获得帮助
 > 返回信息较长，仅取部分进行展示
-``` shell
+``` 
 Millions-MacBook-Pro:~ apple$ docker --help
 
 Usage:	docker [OPTIONS] COMMAND
@@ -159,13 +159,13 @@ Options:
 ```
 
 ### 4. 显示运行中容器
-``` shell
+``` 
 Millions-MacBook-Pro:~ apple$ docker ps
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 ```
 
 ### 5. 显示所有容器（包含已中止）
-``` shell
+``` 
 Millions-MacBook-Pro:~ apple$ docker ps -a
 CONTAINER ID        IMAGE                               COMMAND                  CREATED             STATUS                       PORTS                                            NAMES
 c1c2f2b76827        ubuntu                              "bash"                   7 minutes ago       Exited (1) 4 minutes ago                                                      hardcore_edison
@@ -178,7 +178,7 @@ e618bac206ac        hyperledger/fabric-orderer:1.2.1    "orderer"               
 
 ## 四、MySQL与容器化
 ### 1. 拉取 MySQL 镜像
-``` shell
+``` 
 Millions-MacBook-Pro:~ apple$ docker pull mysql:5.7
 5.7: Pulling from library/mysql
 d599a449871e: Pull complete 
@@ -201,17 +201,17 @@ docker.io/library/mysql:5.7
 ### 2. 构建docker镜像练习
 #### I. 创建文件夹与文件
 ``` shell
-Millions-MacBook-Pro:~ apple$ mkdir mydock && cd mydock
-Millions-MacBook-Pro:mydock apple$ vim dockerfile
+mkdir mydock && cd mydock
+vim dockerfile
 ```
 向dockerfile中写入：
-``` shell
+``` bash
 FROM ubuntu
 ENTRYPOINT ["top", "-b"]
 CMD ["-c"]
 ```
 #### II. 构建镜像
-```shell
+```
 Millions-MacBook-Pro:mydock apple$ docker build . -t hello
 Sending build context to Docker daemon  2.048kB
 Step 1/3 : FROM ubuntu
@@ -229,7 +229,7 @@ Successfully tagged hello:latest
 ```
 #### III. 运行镜像
 > 返回信息较长，仅取部分进行展示
-```shell
+```
 Millions-MacBook-Pro:mydock apple$ docker run -it --rm hello -H  
 top - 07:09:10 up 33 min,  0 users,  load average: 0.05, 0.01, 0.01
 Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
@@ -246,24 +246,24 @@ KiB Swap:  1048572 total,  1048572 free,        0 used.  1400788 avail Mem
 ### 3. 使用MySQL容器
 #### I. 启动服务器并查看
 > 3306端口已被系统原本的mysql占用，这里使用3307端口
-``` shell
+``` 
 Millions-MacBook-Pro:~ apple$ sudo docker run -p 3307:3307 --name mysql2 -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
 47a7010e369cb5bc2b98a2a1aa396cd6fb76a6d1a124582bfeada8c96af6c08f
 ```
-```shell
+```
 Millions-MacBook-Pro:mydock apple$ docker ps
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                                         NAMES
 47a7010e369c        mysql:5.7           "docker-entrypoint.s…"   8 minutes ago       Up 8 minutes        3306/tcp, 33060/tcp, 0.0.0.0:3307->3307/tcp   mysql2
 ```
 #### II. 启动 MySQL 客户端
-```shell
+```
 # mysql -h127.0.0.1 -P3307 -uroot -proot
 mysql: [Warning] Using a password on the command line interface can be insecure.
 ```
 
 
 ### 4. 查看数据库文件
-``` shell
+``` 
 Millions-MacBook-Pro:mydock apple$ docker exec -it mysql2 bash
 root@47a7010e369c:/# ls /var/lib/mysql
 auto.cnf    ca.pem	     client-key.pem  ib_logfile0  ibdata1  mysql	       private_key.pem	server-cert.pem  sys
@@ -274,7 +274,7 @@ ca-key.pem  client-cert.pem  ib_buffer_pool  ib_logfile1  ibtmp1   performance_s
 ## 五、Docker网络
 ### 1. 备制支持 ifconfig 和 ping 命令的 ubuntu 容器
 登入ubuntu镜像
-```
+```shell
 docker run --name unet -it --rm ubuntu bash
 ```
 
@@ -286,7 +286,7 @@ apt-get install iputils-ping -y
 ```
 
 查看网络配置
-```shell
+```
 root@431415e1271b:/# ifconfig
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 172.17.0.3  netmask 255.255.0.0  broadcast 172.17.255.255
@@ -306,7 +306,7 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 ```
 
 尝试ping
-```shell
+```
 root@431415e1271b:/# ping 127.0.0.1
 PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
 64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.040 ms
@@ -321,19 +321,19 @@ rtt min/avg/max/mdev = 0.040/0.076/0.154/0.040 ms
 ```
 
 ### 2. 启动另一个命令窗口，由容器制作镜像
-```shell
+```
 Millions-MacBook-Pro:~ apple$ docker commit unet ubuntu:net
 sha256:efea8bb9b40b5f7547c8b15dfc1b92f35001209d61f6c50455ce9463df6ef745
 ```
 
 ### 3. 创建自定义网络
-```shell
+```
 Millions-MacBook-Pro:~ apple$ docker network create mynet
 7cbbef29417e5d61c986b68fd63c8d81e529f2c983dd5997b904016640bfa2c4
 ```
 
 ### 4. 在两个窗口创建 u1,u2 容器网络，并使用以下命令 
-```shell
+```
 docker run --name u1 -it -p 8080:80 --net mynet --rm ubuntu:net bash
 docker run --name u2 --net mynet -it --rm ubuntu:net bash
 docker info u1
@@ -343,7 +343,7 @@ docker network disconnect mynet u1
 
 ## 六、容器监控与与日志
 ### 1. 检查docker的状态
-```shell
+```
 Millions-MacBook-Pro:mydock apple$ docker info 
 Client:
  Debug Mode: false
@@ -400,13 +400,13 @@ Server:
  Product License: Community Engine
 ```
 
-```shell
+```
 Millions-MacBook-Pro:mydock apple$ docker info --format {{.ServerVersion}}
 19.03.5
 ```
 
 ### 2. 查看容器内进程
-```shell
+```
 Millions-MacBook-Pro:mydock apple$ docker stats
 
 CONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS
@@ -416,14 +416,14 @@ CONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT   
 
 ### 3. 容器详细信息
 > 这里运行了一个在9b6117e97764的ubuntu镜像
-```shell
+```
 Millions-MacBook-Pro:mydock apple$ docker inspect -f '{{.NetworkSettings}}' 9b6117e97764
 {{ 95c91a0f3877f87ca990bb70d881304b912b5721a83d3164d7de4d1f1385ff1c false  0 map[] /var/run/docker/netns/95c91a0f3877 [] []} {   0  0  } map[mynet:0xc00002a0c0]}
 ```
 
 ## 七、容器日志查看
 > 查看在9b6117e97764的ubuntu镜像
-```shell
+```
 Millions-MacBook-Pro:mydock apple$ docker logs 9b6117e97764
 root@9b6117e97764:/# ifconfig
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -444,7 +444,7 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 ```
 
 ## 八、Docker图形化管理工具
-```shell
+```
 Millions-MacBook-Pro:mydock apple$ docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
 Unable to find image 'portainer/portainer:latest' locally
 latest: Pulling from portainer/portainer
