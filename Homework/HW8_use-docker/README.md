@@ -418,7 +418,6 @@ CONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT   
 > 这里运行了一个在9b6117e97764的ubuntu镜像
 ```
 Millions-MacBook-Pro:mydock apple$ docker inspect -f '{{.NetworkSettings}}' 9b6117e97764
-{{ 95c91a0f3877f87ca990bb70d881304b912b5721a83d3164d7de4d1f1385ff1c false  0 map[] /var/run/docker/netns/95c91a0f3877 [] []} {   0  0  } map[mynet:0xc00002a0c0]}
 ```
 
 ## 七、容器日志查看
